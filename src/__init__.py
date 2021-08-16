@@ -1,7 +1,4 @@
 from flask import Flask
-
-app = Flask(__name__)
-
 import clr, sys, os
 import config
 
@@ -13,5 +10,7 @@ clr.AddReference('BSMAnalytics')
 from System import Convert
 from System import *
 from BSMAnalytics import ExcelFuncs
+
+app = Flask(__name__)
 
 from src import routs
