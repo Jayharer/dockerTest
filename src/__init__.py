@@ -2,8 +2,8 @@ from flask import Flask
 import clr, sys, os
 import config
 
-dlllib_path=os.path.join(config.BASE_DIR,"dlllib")
-sys.path.insert(0, dlllib_path)
+
+sys.path.insert(0, config.DLL_PATH)
 
 clr.FindAssembly('BSMAnalytics')
 clr.AddReference('BSMAnalytics')

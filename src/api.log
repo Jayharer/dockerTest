@@ -1,0 +1,5 @@
+2021-08-17 16:32:08,950:ERROR:type str doesn't define __round__ method
+Traceback (most recent call last):
+  File "E:/flaskprojects/dockertest/src/pricer.py", line 53, in getModelPriceLocal
+    return round(result, 10)
+TypeError: type str doesn't define __round__ method

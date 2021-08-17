@@ -9,6 +9,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 WORKDIR /code
 COPY . .
+COPY PricingData PricingData
 RUN apt-get update -y \
     && pip install --no-cache-dir -r requirements.txt
 EXPOSE 5000 

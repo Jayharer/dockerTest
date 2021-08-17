@@ -1,3 +1,20 @@
-2021-08-16 14:11:02,276:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2021-08-16 14:11:11,287:DEBUG:ValuationDate : 15-08-2020 00:00:00 
-2021-08-16 14:11:11,288:INFO:127.0.0.1 - - [16/Aug/2021 14:11:11] "GET /datetime HTTP/1.1" 200 -
+2021-08-17 17:07:58,013:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-17 17:08:03,773:DEBUG:date : 30-10-2020
+2021-08-17 17:08:04,059:DEBUG:eq_option delta : 3.0859769536
+2021-08-17 17:08:04,063:INFO:127.0.0.1 - - [17/Aug/2021 17:08:04] "GET /equityoption/delta HTTP/1.1" 200 -
+2021-08-17 17:12:42,762:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-17 17:12:48,972:DEBUG:date : 30-10-2020
+2021-08-17 17:12:49,199:DEBUG:eq_option vega : 0.0124935643
+2021-08-17 17:12:49,200:INFO:127.0.0.1 - - [17/Aug/2021 17:12:49] "GET /equityoption/vega HTTP/1.1" 200 -
+2021-08-17 17:24:11,447:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-17 17:24:21,566:DEBUG:date : 14-02-2020
+2021-08-17 17:24:21,582:DEBUG:bond price : 107.285
+2021-08-17 17:24:21,583:INFO:127.0.0.1 - - [17/Aug/2021 17:24:21] "GET /bond/modelprice HTTP/1.1" 200 -
+2021-08-17 17:27:55,428:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-17 17:28:33,308:DEBUG:date : 14-02-2020
+2021-08-17 17:28:33,729:DEBUG:bond irdelta : -0.067701
+2021-08-17 17:28:33,734:INFO:127.0.0.1 - - [17/Aug/2021 17:28:33] "GET /bond/irdelta HTTP/1.1" 200 -
+2021-08-17 17:39:14,022:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-17 17:39:26,527:DEBUG:date : 12-03-2019
+2021-08-17 17:39:26,616:DEBUG:fx_price : 208.3944
+2021-08-17 17:39:26,617:INFO:127.0.0.1 - - [17/Aug/2021 17:39:26] "GET /fxoption/price HTTP/1.1" 200 -
